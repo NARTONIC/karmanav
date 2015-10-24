@@ -1,0 +1,11 @@
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+    width: 50%;
+    margin-top: 101px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
