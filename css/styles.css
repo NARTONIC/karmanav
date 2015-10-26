@@ -12,12 +12,14 @@ body {
 
 .top-navigation{
 	background-color: #fff;
+	width: 100%;
 }
 
 .top-navigation > .menu{
 	width: 970px;
     height: 70px;
     margin: 0 auto;
+    width: 60%;
 }
 
 .navigation{
@@ -71,5 +73,62 @@ body {
 	background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
+    height: 41.538rem;
+    overflow: auto;
+}
+
+.button{
+	text-align: center;
+}
+
+.button .big-button {
+	background-color: rgb(241, 90, 41);
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    width: 9.688rem;
+    color: #fff;
+	font-size: 1.2rem;
+}
+
+.button .big-button:hover{
+	background-color: #D9400E;
+	border-color: #D9400E;
+	cursor: pointer;
+}
+
+
+.body .content h1{
+	font-size: 3.125rem;
+	margin-top: 12.5rem;
+}
+
+.body .content h3{
+	font-size: 1.563rem;
+	margin-top: 1.25rem;
+}
+
+.body  .content h1, .body  .content h3{
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+}
+
+.icons{
+	background-color: #fff;
+	overflow: auto;
+}
+
+.icons .content{
+	text-align: center;
+}
+.icons .content .devices{
+	list-style: none;
+}
+
+.icons .content .devices > li{
+	float: left;
+	width: 30%;
 }
