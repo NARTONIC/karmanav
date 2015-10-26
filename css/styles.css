@@ -13,9 +13,11 @@ body {
 .top-navigation{
 	background-color: #fff;
 	width: 100%;
+	position: fixed;
+	position: fixed;
 }
 
-.top-navigation > .menu{
+.top-navigation > .content{
 	width: 970px;
     height: 70px;
     margin: 0 auto;
@@ -100,17 +102,17 @@ body {
 }
 
 
-.body .content h1{
+.body h1{
 	font-size: 3.125rem;
 	margin-top: 12.5rem;
 }
 
-.body .content h3{
+.body h3{
 	font-size: 1.563rem;
 	margin-top: 1.25rem;
 }
 
-.body  .content h1, .body  .content h3{
+.body h1, .body h3{
 	color: #fff;
 	font-weight: 300;
 	text-align: center;
@@ -118,17 +120,77 @@ body {
 
 .icons{
 	background-color: #fff;
-	overflow: auto;
+	overflow: hidden;
+	padding-bottom: 5rem;
 }
 
 .icons .content{
-	text-align: center;
+	margin-top: 7.875rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center
 }
-.icons .content .devices{
+.icons h2{
+	text-align: center;
+	font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+ul, ol{
 	list-style: none;
 }
 
-.icons .content .devices > li{
+.icons .devices > li{
 	float: left;
-	width: 30%;
+	width: 33.333333%;
+}
+
+.icons .devices h3{
+	font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+
+.social{
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+.social hr{
+	border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0
+}
+
+.content{
+	width: 100%;
+}
+
+.social .icons > li{
+	border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+    margin: 0 0 0 25px;
 }
